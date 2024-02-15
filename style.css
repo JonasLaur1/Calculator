@@ -6,6 +6,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
 }
 
 button{
@@ -22,14 +25,15 @@ button{
     width: 400px;
     background-color: transparent;
     overflow: hidden;
-    background-color: hsla(0, 0%, 15%, 1);
+    background-color: #17161B;
+    border-radius: 10px;
 }
 
 #display{
     width: 100%;
     border: none;
     height: 75px;
-    background-color: hsla(0, 0%, 20%, 1);
+    background-color: #28272C;
     color: #a1a1a1;
     text-align: left;
     font-size: 45px;
@@ -41,7 +45,7 @@ body{
     align-items: center;
     margin: 0;
     height: 100vh;
-    background-image: linear-gradient(to right bottom, #051937, #1a2c55, #304174, #475795, #616db7);
+    background-image: white;
 }
 button:hover{
     cursor: pointer;

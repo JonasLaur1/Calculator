@@ -1,7 +1,14 @@
 const display = document.getElementById("display");
 
 function writeToDisplay(input){
+    if(display.value === "Error" || display.value === "undefined" || display.value === "NaN" || display.value === "Infinity")
+    {
+        display.value = input;
+    }
+    else{
     display.value += input;
+    }
+
 }
 
 function calculation(){
